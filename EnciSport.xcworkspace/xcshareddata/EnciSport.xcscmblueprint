@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20D20B9489480089F487F405A33F150588918D8F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e1df301a-7559-4fe2-a602-36d1c20c52bb" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20D20B9489480089F487F405A33F150588918D8F" : 9223372036854775807,
+    "e1df301a-7559-4fe2-a602-36d1c20c52bb" : 9223372036854775807,
+    "BEC2F08BC7AAFD5396D2CB4C6E259636DA4199AE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "308BCE81-2A70-4B56-9665-7E88D17A797E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20D20B9489480089F487F405A33F150588918D8F" : "EnciSport%203.0\/",
+    "e1df301a-7559-4fe2-a602-36d1c20c52bb" : "..",
+    "BEC2F08BC7AAFD5396D2CB4C6E259636DA4199AE" : "SwiftClass\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EnciSport",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EnciSport.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/LucianoCalderano\/enci.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20D20B9489480089F487F405A33F150588918D8F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/LucianoCalderano\/swiftclass.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BEC2F08BC7AAFD5396D2CB4C6E259636DA4199AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/94.23.198.166\/svn\/ios.kanito.it",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e1df301a-7559-4fe2-a602-36d1c20c52bb"
+    }
+  ]
+}

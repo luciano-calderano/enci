@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - LcLib (1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage
+  - LcLib (from `https://github.com/luciano-calderano/LcLib`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+
+EXTERNAL SOURCES:
+  LcLib:
+    :git: https://github.com/luciano-calderano/LcLib
+
+CHECKOUT OPTIONS:
+  LcLib:
+    :commit: e1b2386f661ac9af9a9ca4db1d192aa214f7c029
+    :git: https://github.com/luciano-calderano/LcLib
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  LcLib: 2a9318d0208d9d3c7e7473ce101fd075bf6c3441
+
+PODFILE CHECKSUM: 4bd0135a9f1926c852084ca721a654a103635ca4
+
+COCOAPODS: 1.5.3

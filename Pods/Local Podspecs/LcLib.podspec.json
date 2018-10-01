@@ -1,0 +1,24 @@
+{
+  "name": "LcLib",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "summary": "LcLib - Utilità standard.",
+  "requires_arc": true,
+  "swift_version": "4.2",
+  "version": "1.1",
+  "license": {
+    "type": "LcLib License #{s.version}",
+    "text": "Licensed LcLib free 1.1 (by Lc)\n\n"
+  },
+  "authors": {
+    "Luciano C.": "luciano.c@virgilio.it"
+  },
+  "homepage": "https://github.com/lucianocalderano",
+  "source": {
+    "git": "https://github.com/lucianocalderano/LcLib.git",
+    "tag": "1.1"
+  },
+  "frameworks": "UIKit",
+  "source_files": "LcLib/**/*.{swift}"
+}

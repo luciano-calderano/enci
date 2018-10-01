@@ -1,0 +1,162 @@
+Id=EN|IT
+Lng=English|Italiano
+
+NO=No|No
+OK=Ok|Ok
+SI=Yes|Si
+cancel=Cancel|Annulla
+err=Error|Errore
+
+askLogout=Do you want to logout?|Vuoi fare il logout?
+
+AllRegions=(All regions)|(Tutte le regioni)
+Trophy=Trophy|Trofeo
+UserTypeA=Athlete|Atleta
+UserTypeC=Club|Club
+UsrCardNm=ENCI card number|Numero tessera ENCI
+UsrDesCap=Zip code|Cap
+UsrDesCoF=Fiscal|Cod. Fiscale
+UsrDesCog=Name|Cognome
+UsrDesDat=Born|Data di nascita
+UsrDesEml=e-mail|Email
+UsrDesFac=Facebook|Facebook
+UsrDesInd=Address|Indirizzo
+UsrDesLoc=City|Città
+UsrDesNom=First name|Nome
+UsrDesSex=Gender|Sesso
+UsrDesTel=Phone|Telefono
+UsrDesTwi=Twitter|Twitter
+UsrDesWeb=Web site|Sito web
+absent=Absent|Assente
+affiList=Select affiliaition|Seleziona affiliazione
+agilAgil=Agility|Agility
+agilComb=Combined|Combinata
+agilJump=Jumping|Jumping
+all=All|Tutto
+allZones=All regions|Tutte
+arbiter=Arbiter|Arbitro
+areUSure=Are you sure to unscribe ?|Sei sicuro di cancellarti ?
+backToCate=Back to categories|Ritorna alle categorie
+certMedic=Medical certificate|Certificato medico
+continue=Continue|Continua
+disqua=Disqualified|Squalificato
+
+evntList=TRIALS|PROVE
+evntOpen=Open trial|Gara open
+evntTrph=ENCI trophy|Trofeo ENCI
+
+eventDet=Event:|Evento:
+eventOrg=Organizer:|Organizza:
+eventTyp=Event type:|Tipo di evento:
+eventSpo=Sport:|Sport:
+eventTro=Trophy:|Trofeo:
+eventDatIni=Date start:|Data inizio:
+eventDatFin=Date end:|Data fine:
+eventDes=Description|Descrizione
+
+evntArbt=Arbiters|Guidici
+evntAt=At:|Presso:
+evntBusi=Business|Business
+evntDesc=Event description|Descrizione
+evntEarl=Subscription start:|Data inizio iscrizioni:
+evntInfo=Info & contacts|INFO & CONTATTI
+evntPren=Booked:|Prenotati:
+
+evntLog0=Login to subscribe|Fare il login per l'iscrizione
+evntUnsu=Unsubscribe|Cancella iscrizione
+
+evntSuOk=Subscribe|Iscriviti
+evntSub0=Subs. start|Inizio iscr.
+evntSub1=Subs. end|Fine iscr.
+evntSubs=Subscribed|Iscritti
+
+gender0=Male|Maschio
+gender1=Female|Femmina
+iso=eng|ita
+length=Length|Lunghezza
+listAsso=CLUB|CLUB
+listCate=Select category|Scegli una categoria
+listDogs=DOGS|CANI
+listNews=NEWS|NEWS
+loginHead=User login|Login
+loginSignIn=Sign In|Accedi
+loginSignUp=Sign Up|Registrazione
+
+loginUser=USER NAME|UTENTE
+loginPass=PASSWORD|PASSWORD
+
+mainClub=CLUBS|CLUB
+mainDogs=DOGS|CANI
+mainEvnt=TRIALS|PROVE
+mainNews=NEWS|NOTIZIE
+mainRank=RANKINGS|TROFEO ENCI
+mainResu=RESULTS|RISULTATI
+mainUser=MY ENCI SPORT|IL MIO ENCI SPORT
+mySubs=My subscriptions|Le mie iscrizioni
+newsAuth=Author|Autore
+newsBy=By:|Di:
+newsDett=NEWS|NEWS
+newsPubl=Published on:|Publicata il:
+noResults=No results|Senza risultati
+noSubs=No subscriptions found|Nessuna iscrizione trovata
+obstacles=Obstacles|Ostacoli
+
+resuOpen=Open:|Open:
+resuOmol=Homologated|Omologate
+resuNoOpen=No open results for this event|Non ci sono risultati open per questa gara
+
+pen=Pen.|Pen.
+pwdReset=Reset password|Reimposta password
+rankAreaCate=Region - Category|Regione e categoria
+rankOpen=Show open trials rank|Gare open
+rankTrph=Show ENCI trophy rank|Trofeo ENCI
+rankYear=Select Year|Seleziona Anno
+ref=Ref|Rif
+regN=Revoke registration|Cancella registrazione
+regY=Registration|Registrazione
+resuList=RESULTS|RISULTATI
+resuOpts=Select category|Seleziona la categoria
+resuPart=Partecipants|Partecipanti
+results=RESULTS|RISULTATI
+
+eventName=Agility|Agility
+
+sct=Sct|Sct
+seleNazi=Select your country|Seleziona la nazione
+seleRegi=Select your region|Seleziona la regione
+select=Select|Selezione
+selectDogsOpts=Select filters|Selezione filtri
+selectEvnt=Select event|Seleziona il tipo di evento
+selectZone=Select the region|Seleziona la regione
+sgnReset=Check your email|Controlla la tua email
+sgnUpAffi=Affiliated to:|Affiliato a:
+sgnUpAthl=Sign up as athlete|Registrazione Atleta
+sgnUpAtti=Club name|Nome del centro cinofilo
+sgnUpCitt=No town selected|Comune non selezionato
+sgnUpClub=Sign up as club|Registrazione Club
+sgnUpCond=I agree terms and conditions.|Accetti le condizioni ?
+sgnUpConf=Confirm email|Conferma email
+sgnUpDich=I declare to be the owner of this club.|Dichiaro che sono il titolare/gestore di questo centro cinofilo.
+sgnUpHead=User sign up|Registrazione
+sgnUpNazi=Nationality|Nazionalità
+sgnUpOk=Done|Registrato
+sgnUpOrga=Do you organize events (ie. Agility dog) ?|Organizzi gare (es. Agility dog) ?
+sgnUpPaes=No country selected|Nazione non selezionata
+sgnUpRegi=No region selected|Regione non selezionata
+sgnUpResi=Permanent address|Residenza
+sgnUpSelP=Change country|Cambia paese
+sgnUpSele=Select region & town|Seleziona comune e regione
+sgnUpTwn=Type your town (optional)|Inserisci la città (opzionale)
+sgnUpType=Account type|Tipo di account
+speed=Speed|Velocità
+srch=Search|Cerca
+subsClos=Subscription closed|Iscrizioni chiuse
+subsCon=with|con
+subsDone=Subscription done|Iscritto
+subsOpen=Subscription open|Iscrizioni aperte
+subsTit=Binomial subscription|Iscrizione binomio
+subsUnsubs=Unsubscribe ?|Cancello iscr. ?
+usrLogin=Login|Login
+warnSignUp=Validating sign up, your affiliated will receive an email to authorizate.|Confermando l'iscrizione, verrà mandato una email al tuo affiliato per autorizzarti
+warning=Warning|Attenzione
+yearsOld=y.o.|anni

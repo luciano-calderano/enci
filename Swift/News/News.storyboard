@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HJ0-ix-lOz">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dosis-Bold.otf">
+            <string>Dosis-Bold</string>
+        </array>
+        <array key="Dosis-Regular.otf">
+            <string>Dosis-Regular</string>
+        </array>
+        <array key="Dosis-SemiBold.otf">
+            <string>Dosis-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--News Ctrl-->
+        <scene sceneID="ljR-mL-SIQ">
+            <objects>
+                <viewController storyboardIdentifier="NewsCtrl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HJ0-ix-lOz" customClass="NewsCtrl" customModule="EnciSport" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MNB-yZ-Ybn"/>
+                        <viewControllerLayoutGuide type="bottom" id="kTM-GE-VZC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b7H-0d-WK9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEi-10-rSw" userLabel="View Search">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="omu-Ub-7Q3">
+                                        <rect key="frame" x="32" y="8" width="300" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="jnV-ij-jJj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksX-ka-wEK">
+                                        <rect key="frame" x="337" y="8" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="ZmE-r8-olf"/>
+                                            <constraint firstAttribute="height" constant="30" id="aYT-h6-ifD"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="wFind">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnSrch" destination="HJ0-ix-lOz" eventType="touchUpInside" id="JbS-PG-GVo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1137254902" green="0.31372549020000001" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ksX-ka-wEK" secondAttribute="trailing" constant="8" id="2Mu-AV-HLI"/>
+                                    <constraint firstItem="omu-Ub-7Q3" firstAttribute="leading" secondItem="fEi-10-rSw" secondAttribute="leading" constant="32" id="9bB-a9-Twb"/>
+                                    <constraint firstItem="ksX-ka-wEK" firstAttribute="top" secondItem="fEi-10-rSw" secondAttribute="top" constant="8" id="H5Z-sc-JNk"/>
+                                    <constraint firstAttribute="height" constant="45" id="KDU-NC-AC9"/>
+                                    <constraint firstItem="omu-Ub-7Q3" firstAttribute="top" secondItem="fEi-10-rSw" secondAttribute="top" constant="8" id="ii0-vz-cpC"/>
+                                    <constraint firstItem="ksX-ka-wEK" firstAttribute="leading" secondItem="omu-Ub-7Q3" secondAttribute="trailing" constant="5" id="pMV-KX-xpw"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="110" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="g5K-mR-Af2">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.028182249516248703" green="0.23366066813468933" blue="0.54574793577194214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NewsCell" rowHeight="110" id="GNf-tu-9fo" customClass="NewsCell" customModule="EnciSport" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="22" width="375" height="110"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GNf-tu-9fo" id="rGV-d7-JUE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="99" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoBack" translatesAutoresizingMaskIntoConstraints="NO" id="WLB-QO-Jtn">
+                                                    <rect key="frame" x="2" y="0.0" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="D8d-5y-Muf"/>
+                                                        <constraint firstAttribute="width" secondItem="WLB-QO-Jtn" secondAttribute="height" multiplier="1:1" id="oIl-H3-kZC"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date(3)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mHN-7p-fBl" customClass="MYLabel" customModule="EnciSport" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="8" width="270" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="9ii-2Z-Efg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="12"/>
+                                                    <color key="textColor" red="0.028182249516248703" green="0.23366066813468933" blue="0.54574793577194214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title(1)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="495" translatesAutoresizingMaskIntoConstraints="NO" id="iKK-MQ-phK" customClass="MYLabel" customModule="EnciSport" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="30" width="270" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="pOn-jQ-teA"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Dosis-Bold" family="Dosis" pointSize="18"/>
+                                                    <color key="textColor" red="0.028182249516248703" green="0.23366066813468933" blue="0.54574793577194214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="autore(2)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vnA-pR-HcU" customClass="MYLabel" customModule="EnciSport" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="75" width="270" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="dRa-hN-4zT"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="16"/>
+                                                    <color key="textColor" red="0.028182249516248703" green="0.23366066813468933" blue="0.54574793577194214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VL9-ZN-je3">
+                                                    <rect key="frame" x="0.0" y="106" width="375" height="1"/>
+                                                    <color key="backgroundColor" red="0.091220326721668243" green="0.23294438421726227" blue="0.55002331733703613" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="JaX-ra-bVE"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vnA-pR-HcU" firstAttribute="top" secondItem="iKK-MQ-phK" secondAttribute="bottom" constant="5" id="1bC-yj-Y84"/>
+                                                <constraint firstAttribute="trailing" secondItem="iKK-MQ-phK" secondAttribute="trailing" constant="1" id="6tM-Wy-y9O"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="vnA-pR-HcU" secondAttribute="trailing" constant="-7" id="82Q-tX-KPL"/>
+                                                <constraint firstItem="mHN-7p-fBl" firstAttribute="leading" secondItem="WLB-QO-Jtn" secondAttribute="trailing" constant="2" id="CoN-jZ-b8n"/>
+                                                <constraint firstAttribute="trailing" secondItem="VL9-ZN-je3" secondAttribute="trailing" id="HTu-ha-04j"/>
+                                                <constraint firstItem="iKK-MQ-phK" firstAttribute="top" secondItem="mHN-7p-fBl" secondAttribute="bottom" constant="2" id="S4U-WQ-NTZ"/>
+                                                <constraint firstItem="WLB-QO-Jtn" firstAttribute="top" secondItem="rGV-d7-JUE" secondAttribute="top" id="XeN-4R-6xD"/>
+                                                <constraint firstItem="mHN-7p-fBl" firstAttribute="top" secondItem="rGV-d7-JUE" secondAttribute="top" constant="8" id="YdW-FQ-FJd"/>
+                                                <constraint firstItem="WLB-QO-Jtn" firstAttribute="leading" secondItem="rGV-d7-JUE" secondAttribute="leading" constant="2" id="f8g-Mw-XyB"/>
+                                                <constraint firstAttribute="trailing" secondItem="mHN-7p-fBl" secondAttribute="trailing" constant="1" id="gHa-D2-OkU"/>
+                                                <constraint firstAttribute="bottom" secondItem="VL9-ZN-je3" secondAttribute="bottom" constant="3" id="iaa-Xp-EgY"/>
+                                                <constraint firstItem="iKK-MQ-phK" firstAttribute="leading" secondItem="WLB-QO-Jtn" secondAttribute="trailing" constant="2" id="s77-cK-5O5"/>
+                                                <constraint firstItem="vnA-pR-HcU" firstAttribute="leading" secondItem="WLB-QO-Jtn" secondAttribute="trailing" constant="2" id="t5U-22-Lkm"/>
+                                                <constraint firstItem="VL9-ZN-je3" firstAttribute="leading" secondItem="rGV-d7-JUE" secondAttribute="leading" id="tmO-XA-mzV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="autore" destination="vnA-pR-HcU" id="JrW-9a-bML"/>
+                                            <outlet property="imageview" destination="WLB-QO-Jtn" id="utv-Q1-FeR"/>
+                                            <outlet property="pubDat" destination="mHN-7p-fBl" id="Lja-f8-x6L"/>
+                                            <outlet property="titolo" destination="iKK-MQ-phK" id="jAb-ws-vLz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="HJ0-ix-lOz" id="2kF-9E-eXV"/>
+                                    <outlet property="delegate" destination="HJ0-ix-lOz" id="w2S-sy-5r3"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="g5K-mR-Af2" secondAttribute="trailing" id="PlS-Qf-jqz"/>
+                            <constraint firstItem="fEi-10-rSw" firstAttribute="leading" secondItem="b7H-0d-WK9" secondAttribute="leading" id="Pm9-rg-zH7"/>
+                            <constraint firstAttribute="trailing" secondItem="fEi-10-rSw" secondAttribute="trailing" id="Rdj-zv-pnH"/>
+                            <constraint firstItem="g5K-mR-Af2" firstAttribute="top" secondItem="MNB-yZ-Ybn" secondAttribute="bottom" constant="44" id="UYU-pk-Rl7"/>
+                            <constraint firstItem="g5K-mR-Af2" firstAttribute="leading" secondItem="b7H-0d-WK9" secondAttribute="leading" id="cnP-j0-dBM"/>
+                            <constraint firstItem="g5K-mR-Af2" firstAttribute="bottom" secondItem="kTM-GE-VZC" secondAttribute="top" id="lqo-yd-Dyt"/>
+                            <constraint firstItem="fEi-10-rSw" firstAttribute="top" secondItem="b7H-0d-WK9" secondAttribute="top" id="yGG-3k-Vxh"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="headerTitle" value="#listNews"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="headerImage" value="wNews"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="tableView" destination="g5K-mR-Af2" id="a8r-t5-bW1"/>
+                        <outlet property="txtSrch" destination="omu-Ub-7Q3" id="WQ0-5a-UOB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vlT-88-WDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576" y="430"/>
+        </scene>
+        <!--News Dett Ctrl-->
+        <scene sceneID="cSG-Pi-2Ba">
+            <objects>
+                <viewController storyboardIdentifier="NewsDettCtrl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zFc-hy-G8v" customClass="NewsDettCtrl" customModule="EnciSport" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DCo-kd-FSQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="das-Bx-gzh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uis-eA-wyG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ess-xp-uiY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ess-xp-uiY" secondAttribute="trailing" id="80k-Xi-pCs"/>
+                            <constraint firstItem="Ess-xp-uiY" firstAttribute="leading" secondItem="uis-eA-wyG" secondAttribute="leading" id="Btm-Te-CEK"/>
+                            <constraint firstItem="Ess-xp-uiY" firstAttribute="top" secondItem="uis-eA-wyG" secondAttribute="topMargin" id="NiN-mr-ck0"/>
+                            <constraint firstItem="das-Bx-gzh" firstAttribute="top" secondItem="Ess-xp-uiY" secondAttribute="bottom" id="VpY-Np-wTB"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="headerTitle" value="#listNews"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="headerImage" value="wNews"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="web" destination="Ess-xp-uiY" id="VT5-9s-hSk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GnK-jm-i4E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1295" y="430"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoBack" width="900" height="600"/>
+        <image name="wFind" width="256" height="256"/>
+        <image name="wNews" width="256" height="256"/>
+    </resources>
+</document>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RkE-7z-cRF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dosis-SemiBold.otf">
+            <string>Dosis-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Registrationn Ctrl-->
+        <scene sceneID="8nR-of-IkM">
+            <objects>
+                <viewController id="RkE-7z-cRF" customClass="RegistrationnCtrl" customModule="EnciSport" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="es4-57-sAB"/>
+                        <viewControllerLayoutGuide type="bottom" id="lqs-ej-jUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7kT-6p-bpu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TsR-Nl-zfD" customClass="MYInputScrollView" customModule="EnciSport" customModuleProvider="target">
+                                <rect key="frame" x="38" y="50" width="300" height="567"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="DNp-mP-yrv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TsR-Nl-zfD" firstAttribute="top" secondItem="es4-57-sAB" secondAttribute="bottom" constant="30" id="adP-P9-V8l"/>
+                            <constraint firstItem="TsR-Nl-zfD" firstAttribute="centerX" secondItem="7kT-6p-bpu" secondAttribute="centerX" id="gl9-bY-fbN"/>
+                            <constraint firstItem="lqs-ej-jUh" firstAttribute="top" secondItem="TsR-Nl-zfD" secondAttribute="bottom" constant="50" id="xrA-kF-cef"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="headerTitle" value="#mainUser"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="headerImage" value="wUser"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="scrlUser" destination="TsR-Nl-zfD" id="FvR-T1-c1h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m12-6S-zc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="447"/>
+        </scene>
+        <!--Reg User Type Ctrl-->
+        <scene sceneID="SeD-wd-U9d">
+            <objects>
+                <viewController storyboardIdentifier="RegUserTypeCtrl" id="Saj-y9-us2" customClass="RegUserTypeCtrl" customModule="EnciSport" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZNi-9k-JYf"/>
+                        <viewControllerLayoutGuide type="bottom" id="J6V-7I-jko"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tWf-Pj-hDd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5X5-0U-lA1" customClass="MYInputScrollView" customModule="EnciSport" customModuleProvider="target">
+                                <rect key="frame" x="38" y="50" width="300" height="527"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="bsh-zn-mu3"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pd9-zs-bC1" customClass="MYButton" customModule="EnciSport" customModuleProvider="target">
+                                <rect key="frame" x="38" y="602" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.091220326719999995" green="0.23294438419999999" blue="0.55002331729999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="RjC-AV-CUS"/>
+                                    <constraint firstAttribute="width" constant="300" id="sxs-YU-Bb0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="17"/>
+                                <state key="normal" title="#loginSignUp">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUpBtnTapped" destination="Saj-y9-us2" eventType="touchUpInside" id="cFb-46-ewB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5X5-0U-lA1" firstAttribute="centerX" secondItem="tWf-Pj-hDd" secondAttribute="centerX" id="Rhh-xH-ojS"/>
+                            <constraint firstItem="J6V-7I-jko" firstAttribute="top" secondItem="pd9-zs-bC1" secondAttribute="bottom" constant="25" id="Ze7-lb-lUY"/>
+                            <constraint firstItem="5X5-0U-lA1" firstAttribute="top" secondItem="ZNi-9k-JYf" secondAttribute="bottom" constant="30" id="Zh9-3g-KXm"/>
+                            <constraint firstItem="pd9-zs-bC1" firstAttribute="centerX" secondItem="tWf-Pj-hDd" secondAttribute="centerX" id="f9H-u2-7fb"/>
+                            <constraint firstItem="J6V-7I-jko" firstAttribute="top" secondItem="5X5-0U-lA1" secondAttribute="bottom" constant="90" id="peZ-HL-xDj"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="headerTitle" value="#mainUser"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="headerImage" value="wUser"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="scrlUser" destination="5X5-0U-lA1" id="Jmq-MR-rNe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Uc-s8-9Dv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1298" y="447"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wUser" width="256" height="256"/>
+    </resources>
+</document>
